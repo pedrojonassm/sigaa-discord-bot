@@ -8,7 +8,7 @@ import sigaa.bot.events.MainMessageEvent;
 
 public class SigaaBot {
     public static void main(String[] args) {
-        String lToken = "OTY2MDg5NTAzNTIzNjI3MDE4.Yl8q9g.8oJGZqKucDsWqDkUfYDWdnxOzAc";
+        String lToken = "";
         JDABuilder lBuilder = JDABuilder.createDefault(lToken);
         MainEvent lMainEvent = new MainEvent();
         MainMessageEvent lMainMessageEvent = new MainMessageEvent("!");
